@@ -1,0 +1,389 @@
+* {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+nav {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.container-nav {
+    width: 96%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-nav {
+    margin-left: 100px;
+}
+
+.right-nav i {
+    margin-left: 10px;
+}
+
+.fa-solid.fa-bars,
+.fa-solid.fa-bag-shopping,
+.fa-regular.fa-heart,
+.fa-solid.fa-magnifying-glass,
+.fa-regular.fa-user {
+    font-size: 22px;
+}
+
+main {
+    padding-top: 91px;
+}
+
+
+/* section1 */
+
+.section1 {
+    position: relative;
+}
+
+.firstsection-4dot {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+}
+
+
+/* section2 */
+
+.section2 {
+    padding: 2rem 0 2rem 0;
+}
+
+.section2-top {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.section2-top button {
+    padding: 0.3rem 1rem;
+    border-radius: 2rem;
+    margin-left: 0.7rem;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: white;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.section2-top button:active {
+    background-color: black;
+    color: white;
+}
+
+.section2-image-container {
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 16.75rem 16.75rem 16.75rem 16.75rem 16.75rem;
+    width: 98%;
+    margin: auto;
+    column-gap: 1rem;
+    justify-content: center;
+}
+
+.section2-img-box {
+    height: 30.625rem;
+}
+
+.section2-img {
+    width: 100%;
+    height: 80%;
+    background-position: center;
+    background-size: cover;
+    transition: background-image 0.5s;
+}
+
+.section2-img1 {
+    background-image: url(imag/section2-before-hover/1.png);
+}
+
+.section2-img2 {
+    background-image: url(imag/section2-before-hover/2.png);
+}
+
+.section2-img3 {
+    background-image: url(imag/section2-before-hover/3.png);
+}
+
+.section2-img4 {
+    background-image: url(imag/section2-before-hover/4.png);
+}
+
+.section2-img5 {
+    background-image: url(imag/section2-before-hover/5.png);
+}
+
+.section2-img1:hover {
+    background-image: url(imag/section2-1.webp);
+}
+
+.section2-img2:hover {
+    background-image: url(imag/section2-2.webp);
+}
+
+.section2-img3:hover {
+    background-image: url(imag/section2-3.webp);
+}
+
+.section2-img4:hover {
+    background-image: url(imag/section2-4.webp);
+}
+
+.section2-img5:hover {
+    background-image: url(imag/section2-4.webp);
+}
+
+.section2-description {
+    font-size: 0.85rem;
+    line-height: 24px;
+    padding-top: 1rem;
+}
+
+.section2-description p a {
+    font-size: 0.7rem;
+    color: gray;
+    margin-right: 0.6rem;
+}
+
+.section2-bottom {
+    margin: 3rem 0 0 0;
+    text-align: center;
+}
+
+.section2-bottom button {
+    padding: 0.5rem 1.4rem;
+    background-color: white;
+    border: 1px solid rgb(222, 222, 222);
+    font-size: 0.8rem;
+}
+
+.section2-bottom button:hover {
+    border-color: black;
+    transition: border-color 0.4s;
+}
+
+
+/* section2 */
+
+
+/* section3 */
+
+.section3 {
+    width: 94%;
+    margin: auto;
+}
+
+.section3 .img-box {
+    height: 30.625rem;
+    display: flex;
+    padding: 0;
+    justify-content: space-around;
+    margin-bottom: 1rem;
+}
+
+.section3-img {
+    width: 94%;
+    height: 100%;
+    border-radius: 1rem;
+    transition: transform 0.5s, box-shadow 0.8s;
+    background-position: center;
+    display: flex;
+    align-items: end;
+    box-shadow: inset 200px 1px 900px rgba(0, 0, 0, 0.5);
+}
+
+.section3-img h4 {
+    margin-left: 1rem;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 5px 5px 5px rgb(69, 69, 69);
+}
+
+.section3-img:hover {
+    transform: scale(1.05);
+    box-shadow: inset 500px 0px 900px rgba(0, 0, 0, 0.2), 4px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.section3-img1 {
+    background-image: url(imag/section3/1.webp);
+}
+
+.section3-img2 {
+    background-image: url(imag/section3/2.webp);
+}
+
+.section3-img3 {
+    background-image: url(imag/section3/3.webp);
+}
+
+.section3-img4 {
+    background-image: url(imag/section3/4.webp);
+}
+
+
+/* section3 */
+
+
+/* section4 */
+
+.section4-img1 {
+    background-image: url(imag/section4/before/1.png);
+}
+
+.section4-img1:hover {
+    background-image: url(imag/section4/afterhover/1.webp);
+}
+
+.section4-img2 {
+    background-image: url(imag/section4/before/2.png);
+}
+
+.section4-img2:hover {
+    background-image: url(imag/section4/afterhover/2.webp);
+}
+
+.section4-img3 {
+    background-image: url(imag/section4/before/3a.png);
+}
+
+.section4-img3:hover {
+    background-image: url(imag/section4/afterhover/3.webp);
+}
+
+.section4-img4 {
+    background-image: url(imag/section4/before/4.png);
+}
+
+.section4-img4:hover {
+    background-image: url(imag/section4/afterhover/4.webp);
+}
+
+.section4-img5 {
+    background-image: url(imag/section4/before/5.png);
+}
+
+.section4-img5:hover {
+    background-image: url(imag/section4/afterhover/5.webp);
+}
+
+
+/* section4 */
+
+
+/* section6 */
+
+.section6-img1 {
+    background-image: url(imag/section6/1.jpg);
+}
+
+.section6-img2 {
+    background-image: url(imag/section6/2.jpg);
+}
+
+.section6-img3 {
+    background-image: url(imag/section6/3.jpg);
+}
+
+.section6-img4 {
+    background-image: url(imag/section6/4.jpg);
+}
+
+
+/* section6 */
+
+
+/* footer*/
+
+footer ul {
+    list-style: none;
+}
+
+footer ul h6 {
+    font-family: Garamond;
+    font-weight: 600;
+}
+
+footer ul li {
+    font-family: Garamond;
+    line-height: 1.6rem;
+    font-size: 0.8rem;
+}
+
+.customer-care li {
+    line-height: 1.3rem;
+}
+
+
+/* footer second panel */
+
+.footer-secondpanel {
+    font-family: Garamond;
+}
+
+.footer-secondpanel h6 {
+    font-weight: bold;
+}
+
+.footer-secondpanel p {
+    font-size: 0.95rem;
+    font-family: Garamond;
+}
+
+.footer-secondpanel input {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid gray;
+    padding-left: 1rem;
+    outline: none;
+}
+
+input:focus {
+    border-color: #0084ff;
+}
+
+.fa-regular.fa-envelope {
+    padding: 0.7rem;
+    font-size: 1.5rem;
+}
+
+
+/* footer second panel */
+
+
+/* footer copyright */
+
+.footer-copyright {
+    font-size: 0.7rem;
+}
+
+.copyright-secondline {
+    font-weight: bold;
+}
+
+.floating-box {
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    font-size: 0.8rem;
+    background-color: black;
+    color: white;
+    border-radius: 10rem;
+    padding: 0.8rem 1.7rem;
+}
+
+
+/* footer copyright */
+
+
+/* footer */
